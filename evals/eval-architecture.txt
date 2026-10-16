@@ -1,0 +1,16 @@
+Will use this document as reference to draw an architecture diagram for an LLM output evaluation component or tool.
+
+1. Big box, top center, labelled "Success Criteria and Expected Behavior" - 150 words/300 characters
+2. In Development/Prototype (Offline evals)
+3. Dataset and Expert Feedback
+4. Creating Evaluations
+5. At Production (Online evals)
+
+Accuracy > 98% - otherwise flag for improved prompts
+
+Evaluation Functions Length | BLEU | ROUGUE | WER (ML NP initial types, outdated BLEU, ROUGUE)
+
+Offline Evals - critical pre-development activity to identify production readiness criteria
+Online Evals - (Arize, Trulens)
+
+
