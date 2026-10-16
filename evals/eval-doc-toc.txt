@@ -33,3 +33,43 @@ The system architecture consists of five main layers:
     * Response Validator / Safety Check: Hallucination check, compliance filter, toxicity/PII check
   4.5 Logging & Analytics
     * Query Logs, Response Logs, User Feedback, Latency Metrics
+
+5. V1 - Prompts and Context
+  5.1 - System Prompt (Core) - image file included
+  5.2 - Context Variables Injected Per Query - image file included
+  5.3 - Query-Specific Context Augmentation - image file included
+
+6. Why we need Evals - image file included
+
+7. Deciding Metrics and Expected Behavior
+  7.1 - Core Evaluation Dimensions - image file included
+  7.2 - Specific Metrics & Thresholds - image file included
+  7.3 - Expected Behaviors by Query Type - image file included
+  7.4 - Edge Case Behaviors - image file included
+
+8. Creating Test Dataset
+  8.1 -
+  8.2 - Data Collection Methods
+    * Production Query Mining
+    * Expert Curation
+    * Synthetic Generation
+  8.3 - Dataset Maintenance
+    
+9. Creating Evals
+  9.1 - Evaluation Architecture - image file included
+  9.2 - Automated Eval Types - image file included
+  9.3 - LLM-as-Judge Evaluators
+  9.4 - Human Evaluation Protocol
+  9.5 - Deployment Gates
+
+
+10. Offline and Online Evals
+  10.1 - Offline Evals (Pre-deployment)
+  10.2 - Online Evals (Post-deployment)
+  10.3 - Continuous Improvement Flywheel
+  10.4 - Eval Coverage Matrix
+
+
+
+
+  
