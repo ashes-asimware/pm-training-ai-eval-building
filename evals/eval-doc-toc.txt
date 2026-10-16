@@ -10,64 +10,52 @@ Table of Contents
 9. Creating Evals
 10. Offline and Online Evals
 
-1. Product Context - image file included
-2. Value for User - image file included
-3. Value for Business - image file included
+1. Product Context - refer to full document
+2. Value for User - refer to full document
+3. Value for Business - refer to full document
 
 4. Tech Flow Diagram
 The system architecture consists of five main layers:
-  4.1 User Interface Layer
-    * Stock Page (Context) --> Mind Trigger (Analyze CTA) --> Chat Interface
-    * Suggested prompts and free text input for user queries
-  4.2 Orechestration Layer
-    * Query Router / Intent Classifier: Fundamental | Technical | Sentiment | Trade Ideas | Comparison
-    * Context Enrichment Engine: Stock metadata, user context, conversation history
-  4.3 Data Retrieval Layer (RAG)
-    * Fundamentals Database: Financials, Ratios, P&L
-    * Technicals Indicators: RSI, MACD, Support/Resistance
-    * News & Filings: Earnings, Corporate Actions
-    * Analyst Ratings: Consensus, Targets
-  4.4 LLM Layer
-    * System Prompt + Guardrails: Role definition, compliance constraints, output format
-    * LLM (GPT-4 / Claude)
-    * Response Validator / Safety Check: Hallucination check, compliance filter, toxicity/PII check
-  4.5 Logging & Analytics
-    * Query Logs, Response Logs, User Feedback, Latency Metrics
+  4.1 User Interface Layer - refer to full document
+  4.2 Orechestration Layer - refer to full document
+  4.3 Data Retrieval Layer (RAG) - refer to full document
+  4.4 LLM Layer - refer to full document
+  4.5 Logging & Analytics - refer to full document
 
 5. V1 - Prompts and Context
-  5.1 - System Prompt (Core) - image file included
-  5.2 - Context Variables Injected Per Query - image file included
-  5.3 - Query-Specific Context Augmentation - image file included
+  5.1 - System Prompt (Core) - refer to full document
+  5.2 - Context Variables Injected Per Query - refer to full document
+  5.3 - Query-Specific Context Augmentation - refer to full document
 
 6. Why we need Evals - image file included
 
 7. Deciding Metrics and Expected Behavior
-  7.1 - Core Evaluation Dimensions - image file included
-  7.2 - Specific Metrics & Thresholds - image file included
-  7.3 - Expected Behaviors by Query Type - image file included
-  7.4 - Edge Case Behaviors - image file included
+  7.1 - Core Evaluation Dimensions - refer to full document
+  7.2 - Specific Metrics & Thresholds - refer to full document
+  7.3 - Expected Behaviors by Query Type - refer to full document
+  7.4 - Edge Case Behaviors - refer to full document
 
 8. Creating Test Dataset
   8.1 -
   8.2 - Data Collection Methods
-    * Production Query Mining
-    * Expert Curation
-    * Synthetic Generation
-  8.3 - Dataset Maintenance
+    * Production Query Mining - refer to full document
+    * Expert Curation - refer to full document
+    * Synthetic Generation - refer to full document
+  8.3 - Dataset Maintenance - refer to full document
     
 9. Creating Evals
-  9.1 - Evaluation Architecture - image file included
-  9.2 - Automated Eval Types - image file included
-  9.3 - LLM-as-Judge Evaluators
-  9.4 - Human Evaluation Protocol
-  9.5 - Deployment Gates
+  9.1 - Evaluation Architecture - refer to full document
+  9.2 - Automated Eval Types - refer to full document
+  9.3 - LLM-as-Judge Evaluators - refer to full document
+  9.4 - Human Evaluation Protocol - refer to full document
+  9.5 - Deployment Gates - refer to full document
 
 
 10. Offline and Online Evals
-  10.1 - Offline Evals (Pre-deployment)
-  10.2 - Online Evals (Post-deployment)
-  10.3 - Continuous Improvement Flywheel
-  10.4 - Eval Coverage Matrix
+  10.1 - Offline Evals (Pre-deployment) - refer to full document
+  10.2 - Online Evals (Post-deployment) - refer to full document
+  10.3 - Continuous Improvement Flywheel - refer to full document
+  10.4 - Eval Coverage Matrix - refer to full document
 
 
 
