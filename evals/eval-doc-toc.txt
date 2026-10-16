@@ -1,0 +1,35 @@
+Table of Contents
+1. Product Context
+2. Value for User
+3. Value for Business
+4. Tech Flow Diagram
+5. V1 - Prompts and Context
+6. Why we need Evals
+7. Deciding Metrics and Expected Behavior
+8. Creating Test Dataset
+9. Creating Evals
+10. Offline and Online Evals
+
+1. Product Context - image file included
+2. Value for User - image file included
+3. Value for Business - image file included
+
+4. Tech Flow Diagram
+The system architecture consists of five main layers:
+  4.1 User Interface Layer
+    * Stock Page (Context) --> Mind Trigger (Analyze CTA) --> Chat Interface
+    * Suggested prompts and free text input for user queries
+  4.2 Orechestration Layer
+    * Query Router / Intent Classifier: Fundamental | Technical | Sentiment | Trade Ideas | Comparison
+    * Context Enrichment Engine: Stock metadata, user context, conversation history
+  4.3 Data Retrieval Layer (RAG)
+    * Fundamentals Database: Financials, Ratios, P&L
+    * Technicals Indicators: RSI, MACD, Support/Resistance
+    * News & Filings: Earnings, Corporate Actions
+    * Analyst Ratings: Consensus, Targets
+  4.4 LLM Layer
+    * System Prompt + Guardrails: Role definition, compliance constraints, output format
+    * LLM (GPT-4 / Claude)
+    * Response Validator / Safety Check: Hallucination check, compliance filter, toxicity/PII check
+  4.5 Logging & Analytics
+    * Query Logs, Response Logs, User Feedback, Latency Metrics
