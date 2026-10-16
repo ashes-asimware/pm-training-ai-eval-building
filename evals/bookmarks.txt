@@ -1,0 +1,7 @@
+Complete write-up: https://www.news.aakashg.com/p/ai-evals-explained-simply
+
+Slide Deck: https://docs.google.com/presentation/d/1iodVsByuFUHyA7C4gIybQdVwJ6o_jD7iCaDtsXbj60w/edit?slide=id.g22df7b68bc3_0_3#slide=id.g22df7b68bc3_0_3
+
+Evaluations Cheatsheet: https://docs.google.com/document/d/1I836EsQm8ENxZ2xaEn_rcOzxo3mnzOa6Hsd7QEOfG_c/edit?tab=t.0
+
+INDmoney Evals: https://docs.google.com/document/d/1WaQIbtqmOSlw-HpRU5SgFTlGLbH6ao5aIP0iwA7BYFQ/edit?tab=t.0
