@@ -1,0 +1,15 @@
+1. Evals are your AI PRD — The best AI companies have PMs define evals first. Engineers then use pass rates (36%, 56%, 80%) to know when the feature is ready to ship. No evals = no PRD.
+
+2. Non-determinism is why evals exist — LLMs give different outputs for similar inputs. Like tea made in three different places — same ingredients, different result. Evaluations are how you tame that behavior.
+
+3. Build your dataset from 4 sources — Past logs, desk research, synthetic LLM-generated data, and domain experts. Without real edge cases in your dataset, your evals will miss the failures that actually matter.
+
+4. Match the eval type to the metric — Word count and format checks? Use code. Tone, relevance, and hallucination? Use an LLM judge. Compliance and legal risk? Use humans. Don't use a sword when a needle will do.
+
+5. Offline evals before you ship, online evals after — Offline = pre-launch quality gate. Online = production monitoring on sampled traffic (1 in 10, 1 in 100). Both are required. Neither is optional.
+
+6. Cost optimization requires evals — There's a 25x price difference between GPT-5 and GPT Nano. You'll never confidently switch to a cheaper model unless your evals prove the quality holds.
+
+7. Involve domain experts — A PM can't always tell a good financial answer from a bad one. Bring in investment advisors, compliance leads, or customer support reps. Show them outputs. They'll tell you what's broken.
+
+8. Use hybrid evaluation — LLM flags issues at scale, humans make the final call on edge cases. This is how you get thoroughness without burning budget on full human review.
